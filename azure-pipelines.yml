@@ -8,6 +8,7 @@ trigger:
 
 pool:
   name: testpool
+  agent: testagent
 
 variables:
   solution: '**/*.sln'
