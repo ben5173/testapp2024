@@ -35,4 +35,4 @@ steps:
     azureSubscription: 'Azure subscription 1(8f9d584e-dc2b-400b-bf10-87d45e778c29)'
     appType: 'webApp'
     WebAppName: 'testbenapp'
-    packageForLinux: '$(System.DefaultWorkingDirectory)/**/*.zip'
+    packageForLinux: '$(Build.ArtifactStagingDirectory)/*.zip'
